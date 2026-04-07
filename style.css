@@ -1,0 +1,34 @@
+body {
+    background-color: #f0f2f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #007AFF; /* Фирменный синий Apple */
+    border-bottom: 2px solid #007AFF;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #34c759;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #28a745;
+}
